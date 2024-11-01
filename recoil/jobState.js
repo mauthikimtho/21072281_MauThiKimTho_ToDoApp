@@ -1,7 +1,7 @@
 import { atom, selector } from 'recoil';
 import axios from 'axios';
 
-const URL = 'https://66ff35612b9aac9c997e8502.mockapi.io/job';
+const URL = 'https://run.mocky.io/v3/a747ad2a-94f8-4786-81fc-a004410b9cc3';
 
 export const jobListState = atom({
   key: 'jobListState',

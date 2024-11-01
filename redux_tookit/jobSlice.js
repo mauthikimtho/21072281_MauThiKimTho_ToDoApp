@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const URL = 'https://66ff35612b9aac9c997e8502.mockapi.io/job';
+const URL = 'https://run.mocky.io/v3/a747ad2a-94f8-4786-81fc-a004410b9cc3';
 
 // Async action để lấy danh sách công việc
 export const fetchJobs = createAsyncThunk('jobs/fetchJobs', async () => {
